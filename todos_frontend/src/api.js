@@ -42,9 +42,8 @@ export async function createTodo(val){
           throw err;
         }
       }
-      //if not errors respond
       return resp.json();
-    }) //add to current todos the newTodo
+    })
   
 }
 
@@ -61,15 +60,14 @@ export async function removeTodo(id){
           return resp.json().then(data => {
             let err = {errorMessage: data.message};
             throw err;
-          })
+          });
       }else {
           let err = {errorMessage: 'Please try again later, server is not respondind.'};
           throw err;
         }
       }
-      //if not errors respond
       return resp.json();
-    })
+    });
 }
 
 
@@ -89,15 +87,14 @@ export async function updateTodo(todo){
           return resp.json().then(data => {
             let err = {errorMessage: data.message};
             throw err;
-          })
+          });
       }else {
           let err = {errorMessage: 'Please try again later, server is not respondind.'};
           throw err;
         }
       }
-      //if not errors respond
       return resp.json();
-    }) //add to current todos the newTodo
+    });
 }
 
 
