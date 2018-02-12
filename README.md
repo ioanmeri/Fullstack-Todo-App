@@ -3,7 +3,7 @@
 
 Based on the [TodoList API](https://github.com/ioanmeri/todo-api) which is already built 
 
-### Goal: Focus on the structure of such an App
+#### Goal: Focus on the structure of such an App
 
 2 Different Applications:
 * React applications run on 1st server for the frontend
