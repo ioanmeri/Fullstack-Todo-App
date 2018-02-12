@@ -96,16 +96,3 @@ export async function updateTodo(todo){
       return resp.json();
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
