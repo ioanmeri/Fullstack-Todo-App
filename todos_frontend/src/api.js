@@ -1,7 +1,5 @@
 const APIURL = '/api/todos/';
 
-
-
 export async function getTodos(){
   return fetch(APIURL)
   .then(resp => {
@@ -69,7 +67,6 @@ export async function removeTodo(id){
       return resp.json();
     });
 }
-
 
 
 export async function updateTodo(todo){
