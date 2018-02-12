@@ -46,7 +46,6 @@ export async function createTodo(val){
 }
 
 
-
 export async function removeTodo(id){
   const deleteURL = APIURL + id;
   return fetch(deleteURL, {
