@@ -11,11 +11,11 @@ Based on the [TodoList API](https://github.com/ioanmeri/todo-api) which is alrea
 
 2 seperate servers talking to another, as well as, the MongoDB server.
 
-**Notes**: 
+**Notes**:
+
 *The API has not been cloned in case of future changes.*
 
-*The website that is provided, although it looks identical to the current app, it's coming from the API.*
-
-*The same styles has been adapted to React's components.*
+*The website that is provided, although it looks identical to the current app, it's coming from the API.
+The same styles has been adapted to React's components.*
 
 *To run the app, the 2 servers must run on different ports.*
